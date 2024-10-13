@@ -1,0 +1,125 @@
+﻿@model Gissa.Entities.Usuario
+
+@{
+    ViewData["Title"] = "ActualizarPerfil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Perfil</h4>
+
+            <form id="formActualizarPerfil" class="forms-sample" asp-action="ActualizarPerfil" asp-controller="Usuario" method="post">
+                <div class="form-group">
+                    <label for="NameUser">Nombre</label>
+                    <input type="text" asp-for="NameUser" class="form-control form-control-lg" placeholder="Nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="LastName">Apellidos</label>
+                    <input type="text" asp-for="LastName" class="form-control form-control-lg" placeholder="Apellidos">
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Correo Electrónico</label>
+                    <input type="text" asp-for="Email" class="form-control form-control-lg" placeholder="Correo Electrónico">
+                    <span id="emailError" class="error-message">@ViewBag.MensajePantalla</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="Phone">Teléfono</label>
+                    <input asp-for="Phone" type="text" class="form-control form-control-lg" placeholder="Teléfono">
+                </div>
+                <div class="form-group">
+                    <input type="hidden" asp-for="Identification">
+                </div>
+
+                <br />
+                <button type="button" class="btn btn-primary float-right mr-2" onclick="actualizarPerfil()">Actualizar Datos</button>
+                <a type="button" class="btn btn-primary" href="@Url.Action("Index", "Home")"><i class="ti-arrow-left"> </i>Regresar</a>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<style>
+    .error-message {
+        color: red;
+        font-weight: bold;
+    }
+</style>
+
+<script>
+    // Esta función manejará el evento de actualizar el perfil
+    function actualizarPerfil() {
+        // Mostrar la alerta de confirmación
+        Swal.fire({
+            title: "¿Estás seguro?",
+            text: "¿Quieres actualizar tus datos de perfil?",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Sí, actualizar",
+        }).then((result) => {
+            // Si el usuario confirma, se envía el formulario
+            if (result.isConfirmed) {
+                // Envía el formulario usando AJAX
+                $.ajax({
+                    url: '@Url.Action("ActualizarPerfil", "Usuario")',
+                    type: 'POST',
+                    data: $('#formActualizarPerfil').serialize(),
+                    success: function (data) {
+                        // Mostrar mensaje de éxito
+                        if (data == -1) {
+                            Swal.fire({
+                                title: "¡El correo ya está en uso!",
+                                text: "",
+                                icon: "error",
+                                showConfirmButton: false
+                            });
+                            return;
+                        }
+                        if (data == 1) {
+                            Swal.fire({
+                                title: "¡Perfil actualizado!",
+                                text: "Tu perfil ha sido actualizado con éxito.",
+                                icon: "success",
+                                showConfirmButton: false
+                            });
+                            setTimeout(function () {
+                                window.location.href = '/Home/Index';
+                            }, 2000);
+                            return;
+                        }
+                        Swal.fire({
+                            title: "¡Ocurrio un error actualizando el usuario!",
+                            text: "",
+                            icon: "error",
+                            showConfirmButton: false
+                        });
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        // Mostrar mensaje de error si ocurre algún problema
+                        if (xhr.status == 400) {
+                            // Si hay un error de validación del correo electrónico
+                            var response = JSON.parse(xhr.responseText);
+                            $('#emailError').text(response.MensajePantalla);
+                        } else {
+                            // Si hay un error diferente
+                            Swal.fire({
+                                title: "¡Error!",
+                                text: "Hubo un problema al actualizar el perfil.",
+                                icon: "error",
+                                showConfirmButton: false,
+                                timer: 2000 // Cierra automáticamente después de 2 segundos
+                            });
+                        }
+                    }
+                });
+            }
+        });
+    }
+</script>

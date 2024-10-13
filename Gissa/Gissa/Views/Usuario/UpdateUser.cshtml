@@ -1,0 +1,64 @@
+﻿@model Gissa.Entities.Usuario
+@{
+    ViewData["Title"] = "UpdateProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Información del Usuario</h4>
+
+            @using (Html.BeginForm("UpdateUser", "Usuario", FormMethod.Post, new { @class = "pt-3", @enctype = "multipart/form-data", id = "updateForm" }))
+            {
+                @ViewBag.MensajePantalla
+
+                @Html.HiddenFor(m => m.IdUser)
+
+                <div class="form-group">
+                    <label>Identificación</label>
+                    @Html.TextBoxFor(m => m.Identification, new { @class = "form-control form-control-lg", @type = "text", @placeholder = "Nombre" })
+                </div>
+                <div class="form-group">
+                    <label>Nombre</label>
+                    @Html.TextBoxFor(m => m.NameUser, new { @class = "form-control form-control-lg", @type = "text", @placeholder = "Nombre" })
+                </div>
+                <div class="form-group">
+                    <label>Apellidos</label>
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control form-control-lg", @type = "text", @placeholder = "Descripcion" })
+                </div>
+                <div class="form-group">
+                    <label>Correo</label>
+                    @Html.TextBoxFor(m => m.Email, new {  @class = "form-control form-control-lg", @type = "text", @placeholder = "Precio" })
+                </div>
+
+                <div class="form-group">
+                    <label>Rol</label>
+                    @Html.DropDownListFor(model => model.IdRol, ViewBag.ROL as SelectList, "Select a role", new { @class = "form-control" })
+                </div>
+
+                <button type="submit" class="btn btn-primary float-right mr-2" @*onclick="actualizarUsuario()"*@>Actualizar</button>
+                <a type="button" class="btn btn-primary" href="@Url.Action("ConsultUsers", "Usuario")"><i class="ti-arrow-left"> </i>Regresar</a>
+            }
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function actualizarUsuario() {
+        swal({
+            title: "¿Estás seguro?",
+            text: "¿Quieres actualizar este usuario?",
+            icon: "warning",
+            buttons: ["Cancelar", "Sí, actualizar"],
+            dangerMode: true,
+        })
+        .then((willUpdate) => {
+            if (willUpdate) {
+                document.getElementById("updateForm").submit();
+            }
+        });
+    }
+</script>

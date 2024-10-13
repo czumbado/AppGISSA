@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Centro de Carnes don Adrián</title>
+    <link rel="icon" type="image/png" href="~/template/images/logo-icono.png">
+    <link rel="stylesheet" href="~/template/vendors/feather/feather.css">
+    <link rel="stylesheet" href="~/template/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="~/template/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/template/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="~/template/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="~/template/css/select.dataTables.min.css">
+    <link rel="stylesheet" href="~/template/css/vertical-layout-light/style.css">
+</head>
+<body>
+    <div class="container-scroller">
+        <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand brand-logo mr-5" href="@Url.Action("Index", "Login")"><img src="~/template/images/logo.png" class="mr-2" alt="logo" /></a>
+                <a class="navbar-brand brand-logo-mini" href="@Url.Action("Index", "Login")"><img src="~/template/images/logo-mini.png" alt="logo" /></a>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+                <ul class="navbar-nav mr-lg-2">
+                    <li class="nav-item nav-search d-none d-lg-block">
+
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-nav-right">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("IniciarSesion","Login")"> <i class="ti-home text-primary"></i> Iniciar Sesión</a>
+                    </li>
+
+                </ul>
+         
+            </div>
+        </nav>
+        <div class="container-fluid page-body-wrapper">
+            <div class="main-panel" style="width:100%">
+                <div class="content-wrapper">
+                    <div class="row">
+                        @RenderBody()
+                    <header>
+                    <img src="~/template/images/ima_0042.png" alt="Imagen de Inicio" class="inicio-img">
+                    </header>
+
+                    <section class="quienes-somos">
+                        <div class="container">
+                                <h2 >Quiénes Somos</h2>
+                                <br />
+                                <p style="font-size: 18px;">Somos una carnicería comprometida con la calidad y frescura de nuestros productos. Con años de experiencia en el sector, nos enorgullece ofrecer a nuestros clientes las mejores carnes seleccionadas y cortes artesanales, garantizando sabores excepcionales en cada bocado. Nuestra pasión por la excelencia y el servicio al cliente nos impulsa a brindar una experiencia única en cada visita.</p>
+                                <p style ="font-size: 18px;">¡Descubre el sabor auténtico en cada compra con nosotros!</p>
+                        </div>
+                    </section>
+                    <br />
+                    <section class="servicios">
+                            <h2>Nuestros Productos</h2>
+                        <div class="container">
+                            
+                            <div class="card">
+                                <h3>Res</h3>
+                                    <p>Descubre la calidad y el sabor incomparables que solo nuestra carne de res puede ofrecerte. 
+                                        ¡Haz de tus comidas una experiencia memorable con nosotros!.</p>
+                                    <img src="~/template/images/40.png" />
+                            </div>
+                            <div class="card">
+                                <h3>Cerdo</h3>
+                                    <p> Desde cortes jugosos hasta productos ahumados y curados, 
+                                        nuestra carne de cerdo es la elección perfecta para tus comidas favoritas.</p>
+                                    <img src="~/template/images/33.png" />
+                            </div>
+                            <div class="card">
+                                <h3>Pollo</h3>
+                                    <p> 
+                                        ¡Haz de tus comidas algo especial con nuestro pollo de primera calidad!</p>
+                                    <img src="~/template/images/41.png" />
+                            </div>
+                        </div>
+                    </section>
+                    <section class="localidades">
+                            <h2>Nuestras Localidades</h2>
+                        <div class="container">                   
+                            <div class="localidad">
+                                <h3>Curridabat</h3>
+                                <p>Costado sur de la Iglesia Católica</p>
+                                    <p>2271-1772 / Sinpe Móvil 8924-6925</p>
+                                    <img src="~/template/images/location.png" class="loca-img" />
+                            </div>
+                            <div class="localidad">
+                                <h3>San Rafael</h3>
+                                <p>125 mts norte de Zona Centro</p>
+                                    <p>2275-0265 / Sinpe Móvil 8738-7676</p>
+                                    <img src="~/template/images/location.png" class="loca-img" />
+                            </div>
+                            <div class="localidad">
+                                <h3>Patarrá</h3>
+                                <p>Costado sur escuela Juan Monge Guillen</p>
+                                    <p>4080-6791 / Sinpe Móvil 8484-5656</p>
+                                    <img src="~/template/images/location.png" class="loca-img" />
+                            </div>
+                        </div>
+                    </section>
+                        
+            </div>
+                    
+        </div>
+                <footer class="footer bg-primary" style="padding: 25px 100px">
+                    <div class="justify-content-center justify-content-sm-between text-white">
+                        <span class="text-center text-sm-left d-block d-sm-inline-block">
+                            &copy; 2024 Carnicería Don Adrian Online. Todos los derechos reservados.
+
+                        </span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center text-white">
+                            Siguenos en
+                            <span>
+                                <a href="https://www.facebook.com/Gissa?locale=es_LA" target="_blank" style="text-decoration: underline; font-size: 18px" class="text-white"><i class="ti-facebook"></i></a>
+                                <a href="https://www.instagram.com/carnes_don_adrian?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="text-decoration: underline; font-size: 18px" class="text-white"><i class="ti-instagram"></i></a>
+                            </span>
+                        </span>
+                    </div>
+                </footer>
+    </div>
+
+
+    <script src="~/template/vendors/js/vendor.bundle.base.js"></script>
+    <script src="~/template/vendors/chart.js/Chart.min.js"></script>
+    <script src="~/template/vendors/datatables.net/jquery.dataTables.js"></script>
+    <script src="~/template/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+    <script src="~/template/js/dataTables.select.min.js"></script>
+    <script src="~/template/js/off-canvas.js"></script>
+    <script src="~/template/js/hoverable-collapse.js"></script>
+    <script src="~/template/js/template.js"></script>
+    <script src="~/template/js/settings.js"></script>
+    <script src="~/template/js/todolist.js"></script>
+    <script src="~/template/js/dashboard.js"></script>
+    <script src="~/template/js/Chart.roundedBarCharts.js"></script>
+
+</body>
+</html>
+
+<style>
+   
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex; /* Convertir el contenedor en un contenedor flex */
+        flex-wrap: wrap; /* Permitir que los elementos se envuelvan a la siguiente línea */
+        justify-content: center; /* Centrar horizontalmente los elementos */
+
+    }
+
+    /* Estilos de la Imagen de Inicio */
+    .inicio-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .loca-img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Estilos de Quiénes Somos */
+    .quienes-somos {
+        background-color: #ffffff;
+        padding: 40px 0;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    /* Estilos de Servicios */
+    .servicios {
+        background-color: #ffffff;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    /* Estilos de Localidades */
+    .localidades {
+        background-color: #ffffff;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .card,
+    .localidad {
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        margin: 20px; /* Espacio entre los cards */
+        padding: 20px;
+        max-width: 250px; /* Ancho máximo de los cards */
+        flex-grow: 1; /* Permitir que los cards crezcan para llenar el espacio disponible */
+        
+    }
+
+        .card:hover,
+        .localidad:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+    .quienes-somos,
+    .servicios,
+    .localidades{
+        display: inline-block;
+        width: 100%;
+    }
+     
+
+</style>
