@@ -5415,7 +5415,6 @@
     transform: perspective(400px) rotateY(0);
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
-    -ms-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
@@ -5427,7 +5426,6 @@
     transform: perspective(400px) translateZ(150px) rotateY(170deg);
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
-    -ms-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
@@ -5439,7 +5437,6 @@
     transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5451,7 +5448,6 @@
     transform: perspective(400px) rotateY(360deg) scale(0.95);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5463,7 +5459,6 @@
     transform: perspective(400px) scale(1);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5478,7 +5473,6 @@
     transform: perspective(400px) rotateY(0);
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
-    -ms-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
@@ -5490,7 +5484,6 @@
     transform: perspective(400px) translateZ(150px) rotateY(170deg);
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
-    -ms-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
@@ -5502,7 +5495,6 @@
     transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5514,7 +5506,6 @@
     transform: perspective(400px) rotateY(360deg) scale(0.95);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5526,7 +5517,6 @@
     transform: perspective(400px) scale(1);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5541,7 +5531,6 @@
     transform: perspective(400px) rotateY(0);
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
-    -ms-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
@@ -5553,7 +5542,6 @@
     transform: perspective(400px) translateZ(150px) rotateY(170deg);
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
-    -ms-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
@@ -5565,7 +5553,6 @@
     transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5577,7 +5564,6 @@
     transform: perspective(400px) rotateY(360deg) scale(0.95);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5589,7 +5575,6 @@
     transform: perspective(400px) scale(1);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5604,7 +5589,6 @@
     transform: perspective(400px) rotateY(0);
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
-    -ms-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
@@ -5616,7 +5600,6 @@
     transform: perspective(400px) translateZ(150px) rotateY(170deg);
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
-    -ms-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
@@ -5628,7 +5611,6 @@
     transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5640,7 +5622,6 @@
     transform: perspective(400px) rotateY(360deg) scale(0.95);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5652,7 +5633,6 @@
     transform: perspective(400px) scale(1);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5678,7 +5658,6 @@
     transform: perspective(400px) translateZ(150px) rotateY(170deg);
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
-    -ms-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
@@ -5690,7 +5669,6 @@
     transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5702,7 +5680,6 @@
     transform: perspective(400px) rotateY(360deg) scale(0.95);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5714,7 +5691,6 @@
     transform: perspective(400px) scale(1);
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    -ms-animation-timing-function: ease-in;
     -o-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -5727,7 +5703,6 @@
     -ms-transform: perspective(400px) rotateX(90deg);
     -o-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   40% {
@@ -5750,7 +5725,6 @@
     -ms-transform: perspective(400px) rotateX(0deg);
     -o-transform: perspective(400px) rotateX(0deg);
     transform: perspective(400px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -5762,7 +5736,6 @@
     -ms-transform: perspective(400px) rotateX(90deg);
     -o-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   40% {
@@ -5785,7 +5758,6 @@
     -ms-transform: perspective(400px) rotateX(0deg);
     -o-transform: perspective(400px) rotateX(0deg);
     transform: perspective(400px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -5797,7 +5769,6 @@
     -ms-transform: perspective(400px) rotateX(90deg);
     -o-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   40% {
@@ -5820,7 +5791,6 @@
     -ms-transform: perspective(400px) rotateX(0deg);
     -o-transform: perspective(400px) rotateX(0deg);
     transform: perspective(400px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -5865,7 +5835,6 @@
     -ms-transform: perspective(400px) rotateX(90deg);
     -o-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   40% {
@@ -5918,7 +5887,6 @@
     -ms-transform: perspective(400px) rotateX(0deg);
     -o-transform: perspective(400px) rotateX(0deg);
     transform: perspective(400px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -5927,7 +5895,6 @@
     -ms-transform: perspective(400px) rotateX(90deg);
     -o-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -5939,7 +5906,6 @@
     -ms-transform: perspective(400px) rotateX(0deg);
     -o-transform: perspective(400px) rotateX(0deg);
     transform: perspective(400px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -5948,7 +5914,6 @@
     -ms-transform: perspective(400px) rotateX(90deg);
     -o-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -5960,7 +5925,6 @@
     -ms-transform: perspective(400px) rotateX(0deg);
     -o-transform: perspective(400px) rotateX(0deg);
     transform: perspective(400px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -5969,7 +5933,6 @@
     -ms-transform: perspective(400px) rotateX(90deg);
     -o-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -5981,7 +5944,6 @@
     -ms-transform: perspective(400px) rotateX(0deg);
     -o-transform: perspective(400px) rotateX(0deg);
     transform: perspective(400px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -5990,7 +5952,6 @@
     -ms-transform: perspective(400px) rotateX(90deg);
     -o-transform: perspective(400px) rotateX(90deg);
     transform: perspective(400px) rotateX(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -6002,7 +5963,6 @@
     -ms-transform: perspective(400px) rotateY(90deg);
     -o-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   40% {
@@ -6025,7 +5985,6 @@
     -ms-transform: perspective(400px) rotateY(0deg);
     -o-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -6037,7 +5996,6 @@
     -ms-transform: perspective(400px) rotateY(90deg);
     -o-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   40% {
@@ -6060,7 +6018,6 @@
     -ms-transform: perspective(400px) rotateY(0deg);
     -o-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -6072,7 +6029,6 @@
     -ms-transform: perspective(400px) rotateY(90deg);
     -o-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   40% {
@@ -6095,7 +6051,6 @@
     -ms-transform: perspective(400px) rotateY(0deg);
     -o-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -6107,7 +6062,6 @@
     -ms-transform: perspective(400px) rotateY(90deg);
     -o-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   40% {
@@ -6130,7 +6084,6 @@
     -ms-transform: perspective(400px) rotateY(0deg);
     -o-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -6142,7 +6095,6 @@
     -ms-transform: perspective(400px) rotateY(90deg);
     -o-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   40% {
@@ -6165,7 +6117,6 @@
     -ms-transform: perspective(400px) rotateY(0deg);
     -o-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -6177,7 +6128,6 @@
     -ms-transform: perspective(400px) rotateY(0deg);
     -o-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6186,7 +6136,6 @@
     -ms-transform: perspective(400px) rotateY(90deg);
     -o-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -6198,7 +6147,6 @@
     -ms-transform: perspective(400px) rotateY(0deg);
     -o-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6207,7 +6155,6 @@
     -ms-transform: perspective(400px) rotateY(90deg);
     -o-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -6219,7 +6166,6 @@
     -ms-transform: perspective(400px) rotateY(0deg);
     -o-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6228,7 +6174,6 @@
     -ms-transform: perspective(400px) rotateY(90deg);
     -o-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -6240,7 +6185,6 @@
     -ms-transform: perspective(400px) rotateY(0deg);
     -o-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6249,7 +6193,6 @@
     -ms-transform: perspective(400px) rotateY(90deg);
     -o-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -6261,7 +6204,6 @@
     -ms-transform: perspective(400px) rotateY(0deg);
     -o-transform: perspective(400px) rotateY(0deg);
     transform: perspective(400px) rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6270,7 +6212,6 @@
     -ms-transform: perspective(400px) rotateY(90deg);
     -o-transform: perspective(400px) rotateY(90deg);
     transform: perspective(400px) rotateY(90deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -6282,7 +6223,6 @@
     -ms-transform: translateX(100%) skewX(-30deg);
     -o-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   60% {
@@ -6291,7 +6231,6 @@
     -ms-transform: translateX(-20%) skewX(30deg);
     -o-transform: translateX(-20%) skewX(30deg);
     transform: translateX(-20%) skewX(30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   80% {
@@ -6300,7 +6239,6 @@
     -ms-transform: translateX(0%) skewX(-15deg);
     -o-transform: translateX(0%) skewX(-15deg);
     transform: translateX(0%) skewX(-15deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6309,7 +6247,6 @@
     -ms-transform: translateX(0%) skewX(0deg);
     -o-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -6321,7 +6258,6 @@
     -ms-transform: translateX(100%) skewX(-30deg);
     -o-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   60% {
@@ -6330,7 +6266,6 @@
     -ms-transform: translateX(-20%) skewX(30deg);
     -o-transform: translateX(-20%) skewX(30deg);
     transform: translateX(-20%) skewX(30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   80% {
@@ -6339,7 +6274,6 @@
     -ms-transform: translateX(0%) skewX(-15deg);
     -o-transform: translateX(0%) skewX(-15deg);
     transform: translateX(0%) skewX(-15deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6348,7 +6282,6 @@
     -ms-transform: translateX(0%) skewX(0deg);
     -o-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -6360,7 +6293,6 @@
     -ms-transform: translateX(100%) skewX(-30deg);
     -o-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   60% {
@@ -6369,7 +6301,6 @@
     -ms-transform: translateX(-20%) skewX(30deg);
     -o-transform: translateX(-20%) skewX(30deg);
     transform: translateX(-20%) skewX(30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   80% {
@@ -6378,7 +6309,6 @@
     -ms-transform: translateX(0%) skewX(-15deg);
     -o-transform: translateX(0%) skewX(-15deg);
     transform: translateX(0%) skewX(-15deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6387,7 +6317,6 @@
     -ms-transform: translateX(0%) skewX(0deg);
     -o-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -6399,7 +6328,6 @@
     -ms-transform: translateX(100%) skewX(-30deg);
     -o-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   60% {
@@ -6408,7 +6336,6 @@
     -ms-transform: translateX(-20%) skewX(30deg);
     -o-transform: translateX(-20%) skewX(30deg);
     transform: translateX(-20%) skewX(30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   80% {
@@ -6417,7 +6344,6 @@
     -ms-transform: translateX(0%) skewX(-15deg);
     -o-transform: translateX(0%) skewX(-15deg);
     transform: translateX(0%) skewX(-15deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6426,7 +6352,6 @@
     -ms-transform: translateX(0%) skewX(0deg);
     -o-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -6438,7 +6363,6 @@
     -ms-transform: translateX(100%) skewX(-30deg);
     -o-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
   60% {
@@ -6447,7 +6371,6 @@
     -ms-transform: translateX(-20%) skewX(30deg);
     -o-transform: translateX(-20%) skewX(30deg);
     transform: translateX(-20%) skewX(30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   80% {
@@ -6456,7 +6379,6 @@
     -ms-transform: translateX(0%) skewX(-15deg);
     -o-transform: translateX(0%) skewX(-15deg);
     transform: translateX(0%) skewX(-15deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6465,7 +6387,6 @@
     -ms-transform: translateX(0%) skewX(0deg);
     -o-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
 }
@@ -6477,7 +6398,6 @@
     -ms-transform: translateX(0%) skewX(0deg);
     -o-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6486,7 +6406,6 @@
     -ms-transform: translateX(100%) skewX(-30deg);
     -o-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -6498,7 +6417,6 @@
     -ms-transform: translateX(0%) skewX(0deg);
     -o-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6507,7 +6425,6 @@
     -ms-transform: translateX(100%) skewX(-30deg);
     -o-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -6519,7 +6436,6 @@
     -ms-transform: translateX(0%) skewX(0deg);
     -o-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6528,7 +6444,6 @@
     -ms-transform: translateX(100%) skewX(-30deg);
     -o-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -6540,7 +6455,6 @@
     -ms-transform: translateX(0%) skewX(0deg);
     -o-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6549,7 +6463,6 @@
     -ms-transform: translateX(100%) skewX(-30deg);
     -o-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -6561,7 +6474,6 @@
     -ms-transform: translateX(0%) skewX(0deg);
     -o-transform: translateX(0%) skewX(0deg);
     transform: translateX(0%) skewX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
   }
   100% {
@@ -6570,7 +6482,6 @@
     -ms-transform: translateX(100%) skewX(-30deg);
     -o-transform: translateX(100%) skewX(-30deg);
     transform: translateX(100%) skewX(-30deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -8039,7 +7950,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8056,7 +7966,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8073,7 +7982,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8083,7 +7991,6 @@
     -ms-transform: rotate(60deg) translateY(0);
     -o-transform: rotate(60deg) translateY(0);
     transform: rotate(60deg) translateY(0);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform-origin: top left 50%;
     -moz-transform-origin: top left 50%;
@@ -8092,7 +7999,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8102,7 +8008,6 @@
     -ms-transform: translateY(700px);
     -o-transform: translateY(700px);
     transform: translateY(700px);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -8121,7 +8026,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8138,7 +8042,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8155,7 +8058,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8165,7 +8067,6 @@
     -ms-transform: rotate(60deg) translateY(0);
     -o-transform: rotate(60deg) translateY(0);
     transform: rotate(60deg) translateY(0);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform-origin: top left 50%;
     -moz-transform-origin: top left 50%;
@@ -8174,7 +8075,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8184,7 +8084,6 @@
     -ms-transform: translateY(700px);
     -o-transform: translateY(700px);
     transform: translateY(700px);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
 }
@@ -8203,7 +8102,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8220,7 +8118,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8254,7 +8151,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8282,7 +8178,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8299,7 +8194,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8325,7 +8219,6 @@
     -ms-transform: rotate(60deg) translateY(0);
     -o-transform: rotate(60deg) translateY(0);
     transform: rotate(60deg) translateY(0);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform-origin: top left 50%;
     -moz-transform-origin: top left 50%;
@@ -8334,7 +8227,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8362,7 +8254,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8395,7 +8286,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8413,7 +8303,6 @@
     transform-origin: top left 50%;
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
   }
@@ -8437,7 +8326,6 @@
     transform: translateX(-100%) rotate(-120deg);
   }
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
     -moz-transform: translateX(0px) rotate(0deg);
@@ -8449,7 +8337,6 @@
 
 @-webkit-keyframes rollIn {
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
     -moz-transform: translateX(-100%) rotate(-120deg);
@@ -8458,7 +8345,6 @@
     transform: translateX(-100%) rotate(-120deg);
   }
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
     -moz-transform: translateX(0px) rotate(0deg);
@@ -8470,7 +8356,6 @@
 
 @-o-keyframes rollIn {
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
     -moz-transform: translateX(-100%) rotate(-120deg);
@@ -8479,7 +8364,6 @@
     transform: translateX(-100%) rotate(-120deg);
   }
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
     -moz-transform: translateX(0px) rotate(0deg);
@@ -8491,7 +8375,6 @@
 
 @-ms-keyframes rollIn {
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
     -moz-transform: translateX(-100%) rotate(-120deg);
@@ -8500,7 +8383,6 @@
     transform: translateX(-100%) rotate(-120deg);
   }
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
     -moz-transform: translateX(0px) rotate(0deg);
@@ -8512,7 +8394,6 @@
 
 @keyframes rollIn {
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
     -moz-transform: translateX(-100%) rotate(-120deg);
@@ -8521,7 +8402,6 @@
     transform: translateX(-100%) rotate(-120deg);
   }
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
     -moz-transform: translateX(0px) rotate(0deg);
@@ -8533,7 +8413,6 @@
 
 @-moz-keyframes rollOut {
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
     -moz-transform: translateX(0px) rotate(0deg);
@@ -8542,7 +8421,6 @@
     transform: translateX(0px) rotate(0deg);
   }
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
     -moz-transform: translateX(-100%) rotate(-120deg);
@@ -8554,7 +8432,6 @@
 
 @-webkit-keyframes rollOut {
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
     -moz-transform: translateX(0px) rotate(0deg);
@@ -8563,7 +8440,6 @@
     transform: translateX(0px) rotate(0deg);
   }
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
     -moz-transform: translateX(-100%) rotate(-120deg);
@@ -8575,7 +8451,6 @@
 
 @-o-keyframes rollOut {
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
     -moz-transform: translateX(0px) rotate(0deg);
@@ -8584,7 +8459,6 @@
     transform: translateX(0px) rotate(0deg);
   }
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
     -moz-transform: translateX(-100%) rotate(-120deg);
@@ -8596,7 +8470,6 @@
 
 @-ms-keyframes rollOut {
   0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
     -webkit-transform: translateX(0px) rotate(0deg);
     -moz-transform: translateX(0px) rotate(0deg);
@@ -8605,7 +8478,6 @@
     transform: translateX(0px) rotate(0deg);
   }
   100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -webkit-transform: translateX(-100%) rotate(-120deg);
     -moz-transform: translateX(-100%) rotate(-120deg);
@@ -8615,26 +8487,7 @@
   }
 }
 
-@keyframes rollOut {
-  0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1;
-    -webkit-transform: translateX(0px) rotate(0deg);
-    -moz-transform: translateX(0px) rotate(0deg);
-    -ms-transform: translateX(0px) rotate(0deg);
-    -o-transform: translateX(0px) rotate(0deg);
-    transform: translateX(0px) rotate(0deg);
-  }
-  100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-    -webkit-transform: translateX(-100%) rotate(-120deg);
-    -moz-transform: translateX(-100%) rotate(-120deg);
-    -ms-transform: translateX(-100%) rotate(-120deg);
-    -o-transform: translateX(-100%) rotate(-120deg);
-    transform: translateX(-100%) rotate(-120deg);
-  }
-}
+
 
 /*-------------------------------------------------------------------*/
 /* === Boostrap Main SCSS === */
@@ -8870,7 +8723,6 @@ caption {
 
 th {
   text-align: inherit;
-  text-align: -webkit-match-parent;
 }
 
 label {
@@ -11089,20 +10941,20 @@ fieldset:disabled .wizard > .actions a,
 
 .btn-primary:hover, .wizard > .actions a:hover {
   color: #fff;
-  background-color: #FF8C49;
+  background-color: #0168B3;
   border-color: #3b3a88;
 }
 
 .btn-primary:focus, .wizard > .actions a:focus, .btn-primary.focus, .wizard > .actions a.focus {
   color: #fff;
-  background-color: #FF8C49;
+  background-color: #0168B3;
   border-color: #3b3a88;
   box-shadow: 0 0 0 0.2rem rgba(102, 100, 184, 0.5);
 }
 
     .btn-primary.disabled, .wizard > .actions a.disabled, .btn-primary:disabled, .wizard > .actions a:disabled {
         color: #fff;
-        background-color: ##96C154;
+        background-color: #96C154;
         border-color: #96C154;
     }
 
@@ -12856,7 +12708,6 @@ input[type="button"].btn-block {
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
-  color-adjust: exact;
 }
 
 .custom-control-inline {
@@ -13153,9 +13004,6 @@ input[type="button"].btn-block {
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-.custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
 
 .custom-range:focus::-ms-thumb {
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
@@ -13196,35 +13044,7 @@ input[type="button"].btn-block {
   border-radius: 1rem;
 }
 
-.custom-range::-moz-range-thumb {
-  width: 1rem;
-  height: 1rem;
-  background-color: #007bff;
-  border: 0;
-  border-radius: 1rem;
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  appearance: none;
-}
 
-@media (prefers-reduced-motion: reduce) {
-  .custom-range::-moz-range-thumb {
-    transition: none;
-  }
-}
-
-.custom-range::-moz-range-thumb:active {
-  background-color: #b3d7ff;
-}
-
-.custom-range::-moz-range-track {
-  width: 100%;
-  height: 0.5rem;
-  color: transparent;
-  cursor: pointer;
-  background-color: #dee2e6;
-  border-color: transparent;
-  border-radius: 1rem;
-}
 
 .custom-range::-ms-thumb {
   width: 1rem;
@@ -13278,13 +13098,7 @@ input[type="button"].btn-block {
   cursor: default;
 }
 
-.custom-range:disabled::-moz-range-thumb {
-  background-color: #adb5bd;
-}
 
-.custom-range:disabled::-moz-range-track {
-  cursor: default;
-}
 
 .custom-range:disabled::-ms-thumb {
   background-color: #adb5bd;
@@ -13981,9 +13795,6 @@ input[type="button"].btn-block {
   }
 }
 
-.accordion {
-  overflow-anchor: none;
-}
 
 .accordion > .card {
   overflow: hidden;
@@ -19117,12 +18928,10 @@ a.text-dark:hover, a.text-dark:focus {
   animation-name: dropdownAnimation;
   -webkit-animation-duration: 0.25s;
   -moz-animation-duration: 0.25s;
-  -ms-animation-duration: 0.25s;
   -o-animation-duration: 0.25s;
   animation-duration: 0.25s;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
-  -ms-animation-fill-mode: both;
   -o-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -19704,7 +19513,6 @@ code {
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
   font-size: calc(0.875rem - 0.05rem);
   font-family: "Nunito", sans-serif;
   font-weight: 400;
@@ -20291,14 +20099,10 @@ code {
 
 .accordion > .card:not(:last-of-type) {
   border-bottom: 0;
-  border-bottom-right-radius: 8;
-  border-bottom-left-radius: 8;
   border-radius: 8px;
 }
 
 .accordion > .card:not(:first-of-type) {
-  border-top-left-radius: 8;
-  border-top-right-radius: 8;
   border-radius: 8px;
 }
 
@@ -20322,7 +20126,6 @@ code {
   position: relative;
   -webkit-transition: color 0.5s ease;
   -moz-transition: color 0.5s ease;
-  -ms-transition: color 0.5s ease;
   -o-transition: color 0.5s ease;
   transition: color 0.5s ease;
   padding-right: 1.5rem;
@@ -20416,7 +20219,6 @@ code {
   padding: 2rem 4.5rem 2rem 2rem;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
@@ -20458,7 +20260,6 @@ code {
   padding: 2rem 4.5rem 2rem 2rem;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
@@ -20499,7 +20300,6 @@ code {
   padding: 2rem 4.5rem 2rem 2rem;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
@@ -21975,11 +21775,9 @@ code {
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   transition: background 0.25s ease;
   -webkit-transition: background 0.25s ease;
   -moz-transition: background 0.25s ease;
-  -ms-transition: background 0.25s ease;
   border: none;
 }
 
@@ -22343,7 +22141,6 @@ code {
   z-index: 1;
   cursor: pointer;
   opacity: 0;
-  filter: alpha(opacity=0);
 }
 
 .rtl .form-check .form-check-label input {
@@ -22434,7 +22231,6 @@ code {
   border-radius: 50%;
   -webkit-transition: all;
   -moz-transition: all;
-  -ms-transition: all;
   -o-transition: all;
   transition: all;
   transition-duration: 0s;
@@ -22482,7 +22278,6 @@ code {
 .form-check .form-check-label input[type="radio"]:checked + .input-helper:after {
   opacity: 1;
   line-height: 1.5;
-  filter: alpha(opacity=100);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
@@ -24170,10 +23965,6 @@ dl li {
   border-bottom-color: #fff;
 }
 
-.popover-primary {
-  border-color: "primary";
-}
-
 .popover-primary .popover-header {
   background: #96C154;
   color: #ffffff;
@@ -24196,9 +23987,6 @@ dl li {
   border-left-color: #96C154;
 }
 
-.popover-secondary {
-  border-color: "secondary";
-}
 
 .popover-secondary .popover-header {
   background: #a3a4a5;
@@ -24291,9 +24079,7 @@ dl li {
   border-left-color: #FFC100;
 }
 
-.popover-danger {
-  border-color: "danger";
-}
+
 
 .popover-danger .popover-header {
   background: #96C154;
@@ -24341,9 +24127,6 @@ dl li {
   border-left-color: #f8f9fa;
 }
 
-.popover-dark {
-  border-color: "dark";
-}
 
 .popover-dark .popover-header {
   background: #282f3a;
@@ -25766,7 +25549,6 @@ dl li {
   z-index: 101;
   visibility: hidden;
   opacity: 0;
-  filter: alpha(opacity=0);
 }
 
 body.avgrund-ready,
@@ -25790,7 +25572,6 @@ body.avgrund-active {
 .avgrund-active .avgrund-popin {
   visibility: visible;
   opacity: 1;
-  filter: alpha(opacity=100);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -25811,7 +25592,6 @@ body.avgrund-active {
 .avgrund-active .avgrund-overlay {
   visibility: visible;
   opacity: .5;
-  filter: alpha(opacity=50);
   height: 20000px;
 }
 
@@ -25907,14 +25687,12 @@ body.avgrund-active {
   stroke: #f7cb9b;
   stroke-width: 20px;
   stroke-dasharray: 0;
-  stroke-linecap: squre;
 }
 
 .ct-series-d .ct-bar {
   stroke: #fcb2b2;
   stroke-width: 20px;
   stroke-dasharray: 0;
-  stroke-linecap: squre;
 }
 
 .ct-series-a .ct-slice-pie {
@@ -25975,7 +25753,6 @@ body.avgrund-active {
   stroke: #b9b3fc;
   stroke-width: 20px;
   stroke-dasharray: 0;
-  stroke-linecap: squre;
 }
 
 /* CodeMirror */
@@ -25995,9 +25772,6 @@ body.avgrund-active {
   box-sizing: border-box;
 }
 
-.grid {
-  border: 1px solid #aab2bd est;
-}
 
 .grid:after {
   display: block;
@@ -26140,7 +25914,7 @@ body.avgrund-active {
   min-width: 70px;
   margin-left: .25rem;
   margin-right: .25rem;
-  width: -webkit-fill-available;
+
   border-radius: 4px;
 }
 
@@ -27796,7 +27570,6 @@ div.tagsinput span.tag a {
   width: 920px;
   padding: 5px;
   -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -28079,7 +27852,6 @@ div.tagsinput span.tag a {
 }
 
 .wizard > .steps .disabled a:active {
-  background: #e6e9ed e;
   color: #434a54;
   cursor: default;
 }
@@ -28451,7 +28223,6 @@ div.tagsinput span.tag a {
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
-  -ms-transition: width 0.25s ease, background 0.25s ease;
 }
 
 .sidebar .nav {
@@ -28533,7 +28304,6 @@ div.tagsinput span.tag a {
   line-height: 10px;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
@@ -28754,7 +28524,6 @@ div.tagsinput span.tag a {
   transition: background 0.25s ease;
   -webkit-transition: background 0.25s ease;
   -moz-transition: background 0.25s ease;
-  -ms-transition: background 0.25s ease;
   -webkit-box-shadow: 0px 5px 21px -5px #CDD1E1;
   -moz-box-shadow: 0px 5px 21px -5px #CDD1E1;
   box-shadow: 0px 5px 21px -5px #CDD1E1;
@@ -28770,7 +28539,6 @@ div.tagsinput span.tag a {
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
-  -ms-transition: width 0.25s ease, background 0.25s ease;
   width: 235px;
   height: 60px;
 }
@@ -28817,7 +28585,6 @@ div.tagsinput span.tag a {
   transition: width 0.25s ease;
   -webkit-transition: width 0.25s ease;
   -moz-transition: width 0.25s ease;
-  -ms-transition: width 0.25s ease;
   color: #6C7383;
   padding-right: 2.375rem;
   padding-left: 2.375rem;
