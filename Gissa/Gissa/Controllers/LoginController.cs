@@ -150,23 +150,12 @@ namespace Gissa.Controllers
         public IActionResult RegisterAccount()
         {
             ViewBag.XYZ = _usuarioModel.ConsultNationality();
-            ViewBag.Skills = new List<SelectListItem>
-    {
-        new SelectListItem { Text = "Buena comunicación", Value = "Buena comunicación" },
-        new SelectListItem { Text = "Buena organización", Value = "Buena organización" },
-        new SelectListItem { Text = "Trabajo en equipo", Value = "Trabajo en equipo" },
-        new SelectListItem { Text = "Puntualidad", Value = "Puntualidad" },
-        new SelectListItem { Text = "Ser creativo", Value = "Ser creativo" },
-        new SelectListItem { Text = "Facilidad de adaptación", Value = "Facilidad de adaptación" }
-    };
             return View();
         }
 
         [HttpPost]
-        public IActionResult RegisterAccount(Usuario entidad, string[] softSkills)
+        public IActionResult RegisterAccount(Usuario entidad)
         {
-            entidad.SoftSkills = string.Join(", ", softSkills);
-
             var resp = _usuarioModel.RegisterAccount(entidad);
 
             // Inicializar ViewBag.XYZ para asegurar su disponibilidad en la vista
