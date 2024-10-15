@@ -133,10 +133,10 @@
                 confirmButtonText: 'Sí, eliminarlo'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    // Realizar una solicitud AJAX para eliminar el usuario en el servidor
+                    // olicitud AJAX para eliminar el usuario en el servidor
                     $.ajax({
                         type: 'POST',
-                        url: '/Usuario/DeleteUser', // Ajusta la ruta de la acción del controlador
+                        url: '/Usuario/DeleteUser', 
                         data: { IdUser: IdUser },
                         success: function (data) {
                             // Eliminar la fila de la tabla si la operación en el servidor fue exitosa
