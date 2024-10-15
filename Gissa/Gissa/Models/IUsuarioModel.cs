@@ -8,6 +8,7 @@ namespace Gissa.Models
         public Usuario? IniciarSesion(Usuario entidad);
 
         public List<SelectListItem>? ConsultNationality();
+        //public List<SelectListItem>? test_ConsultSkills();
         public int RegisterAccount(Usuario entidad);
         public int ActualizarPerfil(Usuario entidad);
         public int RecoverAccount(Usuario entidad);

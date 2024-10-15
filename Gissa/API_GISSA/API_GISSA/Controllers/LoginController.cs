@@ -30,48 +30,6 @@ namespace API_GISSA.Controllers
             _utilitarios = utilitarios;
         }
 
-        //[HttpPost]
-        //[AllowAnonymous]
-        //[Route("IniciarSesion")]
-        //public IActionResult IniciarSesion(UserEnt entidad)
-        //{
-        //    try
-        //    {
-        //        entidad.PasswordUser = GetSHA256Hash(entidad.PasswordUser);
-
-        //        using (var context = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
-        //        {
-        //            var datos = context.ExecuteReader("Login", new { entidad.Email, entidad.PasswordUser }, commandType: CommandType.StoredProcedure);
-
-        //            if (datos.Read())
-        //            {
-        //                var resultado = new
-        //                {
-        //                    IdUser = datos["IdUser"],
-        //                    IdRol = datos["IdRol"],
-        //                    Identification = datos["Identification"],
-        //                    NameUser = datos["NameUser"],
-        //                    LastName = datos["LastName"],
-        //                    Email = datos["Email"],
-        //                    Phone = datos["Phone"],
-        //                    Token = _utilitarios.GenerarToken(datos["IdUser"].ToString()!, datos["IdRol"].ToString()!)
-
-        //                };
-
-        //                return Ok(resultado);
-        //            }
-        //            else
-        //            {
-        //                return NotFound();
-        //            }
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest(ex.Message);
-        //    }
-        //}
-
 
         [HttpPost]
         [AllowAnonymous]
@@ -136,6 +94,27 @@ namespace API_GISSA.Controllers
             }
         }
 
+        //[HttpGet]
+        //[Route("test_ConsultSkills")]
+        //public IActionResult test_ConsultSkills()
+        //{
+        //    try
+        //    {
+
+        //        using (var context = new SqlConnection(_connection))
+        //        {
+        //            var datos = context.Query<SelectListItem>("test_ConsultSkills",
+        //                new { },
+        //                commandType: CommandType.StoredProcedure).ToList();
+        //            return Ok(datos);
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return BadRequest(ex.Message);
+        //    }
+        //}
+
         [HttpPost]
         [AllowAnonymous]
         [Route("RegistrerAccount")]
@@ -149,9 +128,21 @@ namespace API_GISSA.Controllers
                 using (var context = new SqlConnection(_connection))
                 {
                     var datos = context.Execute("RegistrerAccount",
-                       new { entidad.IdNationality, entidad.Identification, entidad.NameUser, entidad.LastName, entidad.Email, entidad.PasswordUser, entidad.ConfPassUser, entidad.Phone },
+                       new
+                       {
+                           entidad.IdNationality,
+                           entidad.Identification,
+                           entidad.NameUser,
+                           entidad.LastName,
+                           entidad.Email,
+                           entidad.PasswordUser,
+                           entidad.ConfPassUser,
+                           entidad.Phone,
+                           entidad.SecondPhone,
+                           entidad.SoftSkills  
+                       },
                         commandType: CommandType.StoredProcedure);
-                    
+
                     return Ok(datos);
                 }
             }
@@ -160,6 +151,7 @@ namespace API_GISSA.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
 
 
         [HttpPost]

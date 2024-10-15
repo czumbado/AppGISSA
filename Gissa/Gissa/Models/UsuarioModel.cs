@@ -45,6 +45,8 @@ namespace Gissa.Models
                 return 0;
         }
 
+
+
         public List<SelectListItem>? ConsultNationality()
         {
             string url = _urlApi + "api/Login/ConsultNationality";
@@ -52,6 +54,14 @@ namespace Gissa.Models
             return resp.Content.ReadFromJsonAsync<List<SelectListItem>?>().Result;
 
         }
+        
+        //public List<SelectListItem>? test_ConsultSkills()
+        //{
+        //    string url = _urlApi + "api/Login/test_ConsultSkills";
+        //    var resp = _httpClient.GetAsync(url).Result;
+        //    return resp.Content.ReadFromJsonAsync<List<SelectListItem>?>().Result;
+
+        //}
         public int ActualizarPerfil(Usuario entidad)
         {
             string url = _urlApi + "api/Usuario/ActualizarPerfil";

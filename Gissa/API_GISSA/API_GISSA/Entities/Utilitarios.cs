@@ -46,29 +46,24 @@ namespace API_GISSA.Entities
             return res.ToString();
         }
 
-        //public void EnviarCorreo(string Destinatario, string Asunto, string Mensaje)
-        //{
-        //    string connectionString = "endpoint=https://cscarnesdonadrian1.unitedstates.communication.azure.com/;accesskey=e+5LeYCwmXrvFVBjc71FwSdX3JN7pRDRxhLhcrwxLhPLzrC9SflSK1h70PQvlCrvIw7Ji2EdYtA4r705f9+uHg==";
-        //    var emailClient = new EmailClient(connectionString);
-
-        //    EmailSendOperation emailSendOperation = emailClient.Send(
-        //        WaitUntil.Completed,
-        //        senderAddress: "DoNotReply@3429f633-b0e1-4e15-b5f9-e9a9728e5eda.azurecomm.net",
-        //        recipientAddress: Destinatario,
-        //        subject: Asunto,
-        //        htmlContent: Mensaje);
-        //}
         public void EnviarCorreo(string Destinatario, string Asunto, string Mensaje)
         {
-            string connectionString = "endpoint=https://cscarnesdonadrian1.unitedstates.communication.azure.com/;accesskey=e+5LeYCwmXrvFVBjc71FwSdX3JN7pRDRxhLhcrwxLhPLzrC9SflSK1h70PQvlCrvIw7Ji2EdYtA4r705f9+uHg==";
-            var emailClient = new EmailClient(connectionString);
-
-            EmailSendOperation emailSendOperation = emailClient.Send(
-                WaitUntil.Completed,
-                senderAddress: "DoNotReply@bdbc1771-6be5-48b9-9488-2bd71a700827.azurecomm.net",
-                recipientAddress: Destinatario,
-                subject: Asunto,
-                htmlContent: Mensaje);
+            string correoSMTP = _configuration.GetSection("Llaves:correoSMTP").Value;
+            string claveSMTP = _configuration.GetSection("Llaves:claveSMTP").Value;
+            MailMessage msg = new MailMessage();
+            msg.To.Add(new MailAddress(Destinatario));
+            msg.From = new MailAddress(correoSMTP);
+            msg.Subject = Asunto;
+            msg.Body = Mensaje;
+            msg.IsBodyHtml = true;
+            SmtpClient client = new SmtpClient();
+            client.UseDefaultCredentials = false;
+            client.Credentials = new System.Net.NetworkCredential(correoSMTP, claveSMTP);
+            client.Port = 587;
+            client.Host = "smtp.office365.com";
+            client.DeliveryMethod = SmtpDeliveryMethod.Network;
+            client.EnableSsl = true;
+            client.Send(msg);
         }
 
         public string GenerarToken(string idUser, string IdRol)
