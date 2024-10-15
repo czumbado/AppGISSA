@@ -113,25 +113,20 @@ namespace Gissa.Controllers
                     // Actualizar la sesión del usuario
                     httpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(identity));
 
-                    // SweetAlert
-                    //TempData["SweetAlertMessage"] = "Perfil actualizado con éxito";
-                    //TempData["SweetAlertTypeMessage"] = "success";
-
-                    // Redirigir a alguna página o realizar otra acción
 
 
                     return 1;
-                    //return RedirectToAction("ViewProducts", "Producto");
+
                 }
-                //ViewBag.MensajePantalla = "Ocurrió un error actualizando el usuario";
+  
                 return 0;
-                //return View();
+ 
             }
             catch (System.Exception ex)
             {
-                //ViewBag.MensajePantalla = "Ocurrió un error actualizando el usuario";
+
                 return 0;
-                //return View();
+
             }
         }
 
